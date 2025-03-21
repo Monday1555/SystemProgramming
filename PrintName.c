@@ -4,14 +4,14 @@ int main() {
     char name[50];
     char student_id[20];
 
-    printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ");
-    scanf_s("%s", name, sizeof(name));  // ¹è¿­ÀÇ Å©±â¸¦ Á÷Á¢ Àü´Ş
+    printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”: ");
+    scanf_s("%s", name, sizeof(name)); 
 
-    printf("ÇĞ¹øÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
-    scanf_s("%s", student_id, sizeof(student_id));  // ¹è¿­ÀÇ Å©±â¸¦ Á÷Á¢ Àü´Ş
+    printf("í•™ë²ˆì„ ì…ë ¥í•˜ì„¸ìš”: ");
+    scanf_s("%s", student_id, sizeof(student_id));  
 
-    printf("ÀÔ·ÂÇÑ ÀÌ¸§: %s\n", name);
-    printf("ÀÔ·ÂÇÑ ÇĞ¹ø: %s\n", student_id);
+    printf("ì´ë¦„: %s\n", name);
+    printf("í•™ë²ˆ: %s\n", student_id);
 
     return 0;
 }
