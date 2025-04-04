@@ -15,44 +15,10 @@
 ## 3. 결과물
 AI를 통해 생성된 코드와 설명은 다음과 같습니다.
 
-### 코드 예시
-```c
-#include <stdio.h>
-
-int main() {
-    int num;
-    char binary[9];
-
-    printf("0에서 255 사이의 숫자를 입력하세요: ");
-    scanf("%d", &num);
-
-    if (num < 0 || num > 255) {
-        printf("오류: 0에서 255 사이의 숫자를 입력해야 합니다.\n");
-        return 1;
-    }
-
-    for (int i = 7; i >= 0; i--) {
-        binary[i] = (num % 2) + '0';
-        num /= 2;
-    }
-    binary[8] = '\0'; // 문자열 종료
-
-    printf("이진수: %s\n", binary);
-
-    printf("앞 4비트: ");
-    for (int i = 0; i < 4; i++) {
-        putchar(binary[i]);
-    }
-    putchar('\n');
-
-    return 0;
-}
-'''
-
 ## 이미지
 
-1. ![prompt1.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt1.png)
-2. ![prompt2.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt2.png)
-3. ![prompt3.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt3.png)
+![prompt1.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt1.png)
+![prompt2.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt2.png)
+![prompt3.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt3.png)
 
 
