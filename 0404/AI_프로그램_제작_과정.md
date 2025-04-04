@@ -8,8 +8,8 @@ WRTN의 자동완성 코드 과제에 들어가 프롬프트에 원하는 프로
 
 ## 이미지
 
-![설명 이미지](이미지_URL을_여기에_넣으세요)
-![설명 이미지](이미지_URL을_여기에_넣으세요)
-![설명 이미지](이미지_URL을_여기에_넣으세요)
-![설명 이미지](이미지_URL을_여기에_넣으세요)
+1. ![prompt1.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt1.png)
+2. ![prompt2.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt2.png)
+3. ![prompt3.png](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0404/prompt3.png)
+
 
