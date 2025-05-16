@@ -53,9 +53,9 @@
 
 ### 11. `d.txt`, `e.txt` 확인
 ![d.txt,e.txt변환유무2](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0516/d.txt,e.txt변환유무2.png)  
-🔹 `d.txt`는 여전히 정상 작동(같은 inode), `e.txt`는 깨진 링크 상태가 됨.
+🔹 `d.txt`와 `e.txt` 여전히 정상 작동(같은 inode).
 
 ### 12. `d.txt` 삭제 후 `e.txt` 상태
 ![d.txt삭제,e.txt변환유무](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0516/d.txt삭제,e.txt변환유무.png)  
-🔹 `d.txt` 삭제 후 `e.txt`는 여전히 깨진 링크 상태 유지.
+🔹 `d.txt` 삭제 후 `e.txt`는 깨진 링크 상태가 됨.
 
