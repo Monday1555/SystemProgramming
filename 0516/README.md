@@ -11,7 +11,7 @@
 
 ## 📁 파일 복사 및 링크 테스트 결과 정리
 
-### 1. `a.txt` 생성
+### 1. `a.txt` 생성 (a.txt내용 : What is the difference between the 'cp' and 'ln' commands?)
 ![a.txt생성](https://raw.githubusercontent.com/Monday1555/SystemProgramming/main/0516/a.txt생성.png)  
 🔹 `a.txt` 파일이 생성되었고, 내용이 입력됨.
 
